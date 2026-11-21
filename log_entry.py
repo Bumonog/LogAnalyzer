@@ -13,6 +13,6 @@ class LogEntry:
     
     """
     
-    timestamp: datetime
-    level: str
-    message: str
+    timestamp: datetime  # Дата и время возникновения события
+    level: str           # Уровень важности: INFO, WARNING, ERROR и т. д.
+    message: str         # Содержание сообщения
