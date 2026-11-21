@@ -1,2 +1,7 @@
 # Conda virtual enviroments
 cur1/
+# Ignore Python cache files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pud
