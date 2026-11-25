@@ -1,7 +1,17 @@
-# Conda virtual enviroments
+# Conda virtual environments
 cur1/
-# Ignore Python cache files and directories
+
+# Python cache files and directories
 __pycache__/
-*.pyc
-*.pyo
-*.pud
+*.py[cod]
+*$py.class
+
+# Pytest cache
+.pytest_cache/
+
+# Generated reports
+reports/
+
+# Temporary test log files
+data/empty.log
+data/normal.log
