@@ -2,7 +2,7 @@ from collections import Counter
 from log_entry import LogEntry
 
 
-def analyze_logs(*, entries: list[LogEntry]) -> dict:
+def analyze_logs(entries: list[LogEntry]) -> dict:
     """
     Выполняет анализ списка записей лог-файла.
     

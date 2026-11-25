@@ -5,7 +5,7 @@ from log_entry import LogEntry
 LOG_LEVELS = ("DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL")
 
 
-def parse_line(*, line: str) -> LogEntry | None:
+def parse_line(line: str) -> LogEntry | None:
     """
     Разбирает одну строку лог-файла.
     
@@ -47,7 +47,7 @@ def parse_line(*, line: str) -> LogEntry | None:
     )
 
 
-def parse_file(*, file_path: str) -> tuple[list[LogEntry], list[tuple[int, str]]]:
+def parse_file(file_path: str) -> tuple[list[LogEntry], list[tuple[int, str]]]:
     """
     Читает лог-файл и разбирает его содержимое по строкам.
     
